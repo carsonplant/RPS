@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1><b><u>Rock Paper Scissors</u></b></h1>
+        <h4>Play against the computer in this battle of inanimate objects</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <h4>Select your fighter</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm col-12 text-center">
+        <div class="card">
+          <div class="card-body">
+            <h5>Rock</h5>
+            <p>Rock can smash the scissors but gets covered by paper</p>
+            <button type="button" onclick="play('rock')">I choose rock!</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm col-12 text-center">
+        <div class="card">
+          <div class="card-body">
+            <h5>Paper</h5>
+            <p>Paper can smother the rock but gets cut up by the scissors</p>
+            <button type="button" onclick="play('paper')">I choose paper!</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm col-12 text-center">
+        <div class="card">
+          <div class="card-body">
+            <h5>Scissors</h5>
+            <p>Scissors can cut up the paper but gets smashed by the rock</p>
+            <button type="button" onclick="play('scissors')">I choose scissors!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
